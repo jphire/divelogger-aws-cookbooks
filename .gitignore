@@ -1,0 +1,26 @@
+*~
+*#
+.#*
+\#*#
+.*.sw[a-z]
+*.un~
+pkg/
+
+# Berkshelf
+.vagrant
+cookbooks/
+
+Berksfile.lock
+
+# Bundler
+# bin/*
+.bundle/*
+
+.kitchen/
+.kitchen.local.yml
+
+lifeengine.zip
+
+.chef
+
+.DS_Store

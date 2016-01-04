@@ -1,0 +1,10 @@
+name             'divelogger-webserver'
+maintainer       'Janne Laukkanen'
+maintainer_email 'janne@pkhelppi.com'
+license          'All rights reserved'
+description      'Installs/Configures divelogger-web'
+long_description 'Installs/Configures divelogger-web'
+version          '0.1.0'
+
+depends 'build-essential'
+depends 'git'

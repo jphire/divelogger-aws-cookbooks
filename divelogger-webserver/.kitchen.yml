@@ -1,0 +1,28 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_solo
+
+platforms:
+- name: ubuntu-14.04
+  driver:
+    network:
+      - ["forwarded_port", {guest: 80, host: 8080}]
+      # - ["forwarded_port", {guest: 443, host: 8443, auto_correct: true}]
+      - ["private_network", {ip: "192.168.33.101", auto_config: false}]
+
+suites:
+  - name: default
+    run_list:
+      - ['dependencies']
+      - ['mod_php5_apache2']
+      - ['opsworks_nodejs']
+      - ['mysql::client']
+      - ['php::configure']
+      - ['deploy::default']
+      - ['deploy::php']
+      - ['lifeengine-webserver']
+    attributes:
+

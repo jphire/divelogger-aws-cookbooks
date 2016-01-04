@@ -1,0 +1,16 @@
+def opsworks_cookbook(name, version = '>= 0.0.0', options = {})
+  cookbook name, version, { path: "~/Chef/opsworks_cookbooks/#{name}" }.merge(options)
+end
+
+source "https://supermarket.chef.io"
+
+opsworks_cookbook 'opsworks_initial_setup'
+opsworks_cookbook 'mysql'
+opsworks_cookbook 'dependencies'
+opsworks_cookbook 'deploy'
+opsworks_cookbook 'opsworks_shutdown'
+
+opsworks_cookbook 'opsworks_nodejs'
+
+cookbook 'build-essential'
+cookbook 'git'

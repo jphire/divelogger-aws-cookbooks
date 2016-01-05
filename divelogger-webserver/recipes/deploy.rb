@@ -18,5 +18,10 @@ end
 
 execute 'run' do
 	cwd "#{node['divelogger']['docroot_dir']}"
-	command 'node api/server.js'
+	command 'node api/server.js &'
+end
+
+execute 'run-web' do
+	cwd "#{node['divelogger']['docroot_dir']}"
+	command 'node web.js &'
 end

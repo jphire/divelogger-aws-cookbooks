@@ -4,8 +4,8 @@
 
 USER=$(whoami)
 VERSION="0.1."
-bundle="/Users/$USER/Sites/divelogger/chef-bundles/bundle"
-bundle_path="/Users/$USER/Sites/divelogger/chef-bundles/bundle.zip"
+bundle="/Users/$USER/Sites/dive-logger/chef-bundles/bundle"
+bundle_path="/Users/$USER/Sites/dive-logger/chef-bundles/bundle.zip"
 tepoch=`date +%s`
 
 echo $#

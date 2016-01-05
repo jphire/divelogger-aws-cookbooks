@@ -17,12 +17,9 @@ suites:
   - name: default
     run_list:
       - ['dependencies']
-      - ['mod_php5_apache2']
       - ['opsworks_nodejs']
       - ['mysql::client']
-      - ['php::configure']
       - ['deploy::default']
-      - ['deploy::php']
-      - ['lifeengine-webserver']
+      - ['divelogger-webserver']
     attributes:
 

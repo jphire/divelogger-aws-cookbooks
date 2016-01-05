@@ -6,3 +6,5 @@ cookbook 'nodejs'
 cookbook 'npm'
 
 cookbook 'mongodb', '~> 0.16.2', github: '3Top/chef-mongodb'
+
+cookbook 'redis', '~> 3.0.4'

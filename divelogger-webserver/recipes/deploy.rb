@@ -13,7 +13,7 @@ end
 # create js and css bundles
 execute 'create js bundle' do
 	cwd "#{node['divelogger']['docroot_dir']}"
-	command 'sudo grunt build'
+	command 'sudo grunt build --force'
 end
 
 execute 'run' do

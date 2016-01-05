@@ -4,6 +4,8 @@ end
 
 source "https://supermarket.chef.io"
 
+metadata
+
 opsworks_cookbook 'opsworks_initial_setup'
 opsworks_cookbook 'mysql'
 opsworks_cookbook 'dependencies'

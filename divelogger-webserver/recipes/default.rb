@@ -6,10 +6,6 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-# include_recipe "mongodb::default"
-# include_recipe "redis::default"
-
-
 
 # include web server recipes
 include_recipe "divelogger-webserver::deploy"

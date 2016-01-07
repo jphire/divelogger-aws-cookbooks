@@ -14,3 +14,4 @@ cookbook 'build-essential'
 cookbook 'git'
 
 cookbook 'mongodb3'
+cookbook 'mongodb'

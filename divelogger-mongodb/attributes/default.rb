@@ -7,6 +7,8 @@ default['divelogger']['role'] = 'document'
 # All of these must be included for the standalone LifeEngine to work.
 default['divelogger']['modules'] = ['mongodb']
 
+#default['mongodb']['package_version'] = '2.6'
+
 # create user in the server, TODO: create different users for other roles?
 # default['divelogger']['user'] = 'web_admin'
 # default['divelogger']['group'] = 'web_admin'

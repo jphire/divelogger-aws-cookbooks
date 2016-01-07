@@ -13,4 +13,4 @@ opsworks_cookbook 'opsworks_shutdown'
 cookbook 'build-essential'
 cookbook 'git'
 
-cookbook 'mongodb', '~> 0.16.2', github: '3Top/chef-mongodb'
+cookbook 'mongodb3'

@@ -1,6 +1,6 @@
 Chef::Log.info("****** INITIALIZING MONGODB.******")
 #mongodb recipes
-include_recipe "mongodb::default"
+include_recipe "mongodb3::default"
 
 # admin = node['divelogger']['mongo_admin']
 # users = node['divelogger']['mongo_users']

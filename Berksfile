@@ -1,6 +1,6 @@
 source "https://supermarket.chef.io"
 
-cookbook 'build-essential'
+cookbook 'build-essential', '= 3.2.0'
 cookbook 'git'
 cookbook 'nodejs'
 cookbook 'npm'

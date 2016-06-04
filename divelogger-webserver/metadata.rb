@@ -6,6 +6,6 @@ description      'Installs/Configures divelogger-web'
 long_description 'Installs/Configures divelogger-web'
 version          '0.1.0'
 
-depends 'build-essential'
+depends 'build-essential' '= 3.2.0'
 depends 'git'
 # depends 'redis'

@@ -10,7 +10,7 @@ opsworks_cookbook 'dependencies'
 opsworks_cookbook 'deploy'
 opsworks_cookbook 'opsworks_shutdown'
 
-cookbook 'build-essential'
+cookbook 'build-essential', '= 3.2.0'
 cookbook 'git'
 
 cookbook 'mongodb3'
